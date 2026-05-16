@@ -10,10 +10,13 @@ The application functions in two distinct modes:
 
 **Technical Stack:**
 
-Language: Kotlin (100% Coroutines & Jetpack Compose Layout Lifecycle)
-Frontend UI Architecture: Jetpack Compose 
-Edge ML Engine: Google LiteRT for Language (com.google.ai.edge.litertlm)
-Local Foundation Model: gemma-4-E2B-it.litertlm (Multimodal Executive Variant running locally)
+1. Language: Kotlin (100% Coroutines & Jetpack Compose Layout Lifecycle)
+
+2. Frontend UI Architecture: Jetpack Compose
+   
+3. Edge ML Engine: Google LiteRT for Language (com.google.ai.edge.litertlm)
+
+4. Local Foundation Model: gemma-4-E2B-it.litertlm (Multimodal Executive Variant running locally)
 
 **Architecture:**
 
