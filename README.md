@@ -65,28 +65,22 @@ Prerequisites
 
 3. USB Debugging enabled on your target device
 
-**Step 1:** 
-Clone and Build the Application
-Clone this repository to your local workstation.
-Open the project folder inside Android Studio.
-Allow Gradle synchronization to complete, then build the project.
+**Step 1:**  Clone and Build the Application
+1.Clone this repository to your local workstation.
+2.Open the project folder inside Android Studio.
+3.Allow Gradle synchronization to complete, then build the project.
 
-**Step 2:**
-Push the Gemma 4 Model via ADB
-Because the application expects the quantized target model file to live within external application storage, you must upload your model file using adb.
-Download the multimodal model file: gemma-4-E2B-it.litertlm (Available in Hugging Face)
-Connect your target Android device via USB.
-Push the model file directly to the app's target directory (replace com.example.lexi with your verified application package identifier if modified):
-
-adb push gemma-4-E2B-it.litertlm /sdcard/Android/data/com.example.lexi/files/models/
+**Step 2:** Push the Gemma 4 Model via ADB
+1.Because the application expects the quantized target model file to live within external application storage, you must upload your model file using adb.
+2.Download the multimodal model file: gemma-4-E2B-it.litertlm (Available in Hugging Face)
+3.Connect your target Android device via USB.
+4.Push the model file directly to the app's target directory (replace com.example.lexi with your verified application package identifier if modified):
+   adb push gemma-4-E2B-it.litertlm /sdcard/Android/data/com.example.lexi/files/models/
 
 **Step 3:** Launch and Verify
-
-Run the application from Android Studio onto your connected device
-
-On initial startup, the device will take approximately 1-2 minutes to initialize the model backend directly onto the CPU.
-
-Once the setup phase completes, the system status message will update to: "Model ready. Capture an image to begin." You are now ready to analyze text completely offline.
+1.Run the application from Android Studio onto your connected device
+2.On initial startup, the device will take approximately 1-2 minutes to initialize the model backend directly onto the CPU.
+3.Once the setup phase completes, the system status message will update to: "Model ready. Capture an image to begin." You are now ready to analyze text completely offline.
 
 **Privacy & Data Sovereignty**
 
