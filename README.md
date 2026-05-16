@@ -1,4 +1,4 @@
-#Lexi: On-Device Multimodal Assistance for Dyslexia Support
+*Lexi: On-Device Multimodal Assistance for Dyslexia Support
 Lexi is a privacy-first, fully offline Android application designed to provide diagnostic support and phonetic corrections for children with dyslexia. Powered locally by Gemma 4 via LiteRT (formerly TensorFlow Lite), Lexi operates entirely on-device, offering specialized pipelines for both educators and students without requiring external APIs or cloud connectivity.
 
 The application functions in two distinct modes:
